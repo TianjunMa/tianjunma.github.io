@@ -15,5 +15,5 @@ I cloned Gao Haoyang's blog template and try to figure out all the settings. I a
 
 For this very first blog, I changed the name of his repo to my github repo (from gaohaoyang.github.io to tianjunma.github.io). This is the name convention for github pages to build a website under your github root page. And this is also how the template author setup his personal blog. I also deleted his old posts and changed his footer a little bit, in order not to display the visit counts. Lastly, I deleted his .md file. Then I pushed it to my github repo and started my very first baby blog. Hopefully I will remember to keep update my personal blog.
 
-Tianjun
+Ma
 2018-08-05

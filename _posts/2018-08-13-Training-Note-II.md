@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "My Resident Training Experience II"
-date:   2018-08-05 23:14:00
-categories: ResidentTraining
-tags: ResidentTraining Blog
+date:   2018-08-13 23:14:00
+categories: Resident
+tags: Resident Blog
 ---
 
 * content

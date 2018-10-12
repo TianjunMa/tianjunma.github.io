@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Periodic Update"
-date:   2018-08-05 23:14:00
-categories: All About Life
+date:   2018-10-11 22:13:00
+categories: Life
 tags: Life Thoughts Blog
 ---
 
