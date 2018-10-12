@@ -12,16 +12,16 @@ type: page
 
 
 /*
-## 关于我
+## About Me
 
-Tianjun Ma, Medical Physics Resident at Cleveland Clinic
+I'm Tianjun Ma, a Medical Physics Resident at Cleveland Clinic
 
-## 联系我
+## Contact Me
 
 * [Email](physicistma@gmail.com)
 
 
-## 关于本站
+## Comments and Suggestions
 
 
 //## Comments
