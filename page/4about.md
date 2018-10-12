@@ -11,7 +11,7 @@ type: page
 
 
 
-/*
+
 ## About Me
 
 I'm Tianjun Ma, a Medical Physics Resident at Cleveland Clinic
@@ -24,6 +24,6 @@ I'm Tianjun Ma, a Medical Physics Resident at Cleveland Clinic
 ## Comments and Suggestions
 
 
-//## Comments
+## Comments
 
 {% include comments.html %}
