@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Maven+Pro:400,700");
+
+
+/* CSS HEX 
+--prussian-blue: #002c3d;
+--blue-green: #0099b8;
+--verdigris: #0baaad;
+--middle-blue-green: #a9dbca;
+--eggshell: #f7f1de;
+--gamboge: #ee9b00;
+--alloy-orange: #ca6702;
+--rust: #bb3e03;
+--rufous: #ae2012;
+--ruby-red: #9b2226;
+*/
+/* Just Comments */
+
+body {
+	font-family: "Maven Pro", sans-serif;
+	padding-top: 0px;  /* Padding space on the page top */
+	background: #f7f1de;
+}
+
+.icon-white{
+	color:white;
+}
+
+.icon-black{
+	color:black;
+}
