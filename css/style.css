@@ -13,14 +13,19 @@
 --rust: #bb3e03;
 --rufous: #ae2012;
 --ruby-red: #9b2226;
-*/
-/* Just Comments */
+Just Comments */
 
 body {
 	font-family: "Maven Pro", sans-serif;
-	padding-top: 0px;  /* Padding space on the page top */
-	background: #f7f1de;
+	/* Padding space on the page top, added top space for styling, need to compensate in Spyscroll */
+	background: #ebebeb;
+	position: relative;
 }
+
+
+html{
+	scroll-padding-top: 60px; 
+} /*offset the html page due to the fixed-top navbar*/
 
 .icon-white{
 	color:white;

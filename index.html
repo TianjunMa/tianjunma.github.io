@@ -1,236 +1,246 @@
-<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Personal, Resume, Medical Physicist, IT, projects">
-    <title>Tianjun´s Site</title>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Tianjun Ma">
+		<meta name="description" content="Personal, Resume, Medical Physicist, IT, projects">
+		<title>Tianjun's Site</title>
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet">
-	
-	<link rel="icon" href="icons/badge-tm.svg">
-	<script src="js/scroll.js"></script>
-  	<script src="js/main.js"></script>
-	<!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-JGE4VFGY38"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
+		<!-- Bootstrap -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">	
+		<link rel="stylesheet" herf="style.css">
+		<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 
-	  gtag('config', 'G-JGE4VFGY38');
-	</script>
-  </head>
-  <body data-spy="scroll" data-target=".navbar" data-offset="50" style="margin-top: 70px">
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-		<div class="container">
-			<a class="navbar-brand text-decoration-none icon-white" href="#top">
+		<link rel="icon" href="icons/badge-tm.svg">
+		<link href="css/style.css" rel="stylesheet">
+
+		<!--
+		<script src="js/scroll.js"></script>
+		<script src="js/main.js"></script>
+		-->
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-M47DK52');</script>
+		<!-- End Google Tag Manager -->
+	</head>
+
+	<!-- BS5.0+ needs to include -bs- -->
+	<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="60" tabindex="0">  <!-- class="scrollspy-nav"   data-bs-smooth-scroll="true" -->
+		<nav id="navbar" class="navbar navbar-expand-md navbar-dark px-5 bg-dark sticky-top">
+			<a class="navbar-brand text-decoration-none icon-white" href="#">
 				<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-badge-tm" viewBox="0 0 16 16">
-				  <path d="M5.295 11V5.995H7V5H2.403v.994h1.701V11h1.19zm3.397 0V7.01h.058l1.428 3.239h.773l1.42-3.24h.057V11H13.5V5.001h-1.2l-1.71 3.894h-.039l-1.71-3.894H7.634V11h1.06z"/>
-				  <path d="M14 3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h12zM2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2z"/>
+					<path d="M5.295 11V5.995H7V5H2.403v.994h1.701V11h1.19zm3.397 0V7.01h.058l1.428 3.239h.773l1.42-3.24h.057V11H13.5V5.001h-1.2l-1.71 3.894h-.039l-1.71-3.894H7.634V11h1.06z"/>
+					<path d="M14 3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h12zM2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2z"/>
 				</svg>
 			</a>
-			
-		   <a class="navbar-brand" href="#">Tianjun</a>
-		   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-		   <span class="navbar-toggler-icon"></span>
-		   </button>
-		   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-			  <ul class="navbar-nav ml-auto">
-				 <li class="nav-item">
-					<a class="nav-link js-scroll-trigger active" href="#top">Home</a>
-				 </li>
-				 <li class="nav-item">
-					<a class="nav-link js-scroll-trigger" href="#bio">Bio</a>
-				 </li>
-				 <li class="nav-item">
-					<a class="nav-link js-scroll-trigger" href="#project">Projects</a>
-				 </li>
-			  </ul>
+			<a class="navbar-brand">Tianjun</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"> <!--  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" -->
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto mt-lg-0 justify-content-end">
+					<!--
+					<li class="nav-item">
+						<a class="nav-link" href="#bio">Home</a>
+					</li>  js-scroll-trigger-->
+					<li class="nav-item">
+						<a class="nav-link" href="#bio">Bio</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#project">Projects</a>
+					</li>
+					<!--
+					<li class="nav-item">
+						<a class="nav-link" href="#social">Social Media</a>
+					</li>-->
+				</ul>
 			 <!-- <hr class="d-lg-none text-white-50"> -->
 			 <ul class="navbar-nav flex-row flex-wrap ms-md-auto">
-				 <li class="nav-item">
-					<a class="nav-link" href="#">Connect</a>
-				 </li>
 				<!-- Vertical bar, issues with shrinking down > 
 				<li class="nav-item py-1 col-12 col-lg-auto">
 					<div class="vr d-none d-lg-flex h-100 mx-lg-2 text-white"></div>
 					<hr class="d-lg-none text-white-50">
 				</li> -->
-				<li class="nav-item col-6 col-md-auto">
-
+				<li class="nav-item col-3 col-md-auto">
 					<a class="nav-link icon-white" href="https://www.linkedin.com/in/tianjunma">
-						
 						<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
 						  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
 						</svg>
 					</a>
 				</li>
-				<li class="nav-item col-6 col-md-auto">
+				<li class="nav-item col-3 col-md-auto">
 				<a class="nav-link icon-white" href="https://www.youtube.com/@tjma">
 					<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
 					  <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
 					</svg>
 				</a>
 				</li>
-				<li class="nav-item col-6 col-md-auto">
+				<li class="nav-item col-3 col-md-auto">
 				<a class="nav-link icon-white" href="https://github.com/TianjunMa">
 					<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
 					  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
 					</svg>
 				</a>
 				</li>
-				<li class="nav-item col-6 col-md-auto">
+				<li class="nav-item col-3 col-md-auto">
 				<a class="nav-link icon-white" href="https://twitter.com/TianjunMa">
 					<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
 					  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
 					</svg>
 				</a>
 				</li>
-			   
-			</ul>
-		   </div>
-		</div>
-    </nav>
-	
-	<!-- Bio -->
-	<div class="container">
-		<div class="row mt-5" id="bio">
-			<div class="col-6 text-end">
-				<h1>I am Tianjun Ma</h1>
-			</div>
-			<div class="col-6 text-start align-bottom my-4">
-				<p class="">A Therapeutic Medical Physicist.</p>
-			</div>
-		</div>
-	  <div class="row align-items-center">
-       <p class="col-md-6 text-center offset-md-3">Welcome to this simple site of mine! Currently I am a medical physicist located in Virginia, United States, covering a wide range of clinical activity, as well as being an instructor. Having explored all espects of medical physics, I stay focused and certified in the therapeutic branch. </p>
-       <p class="col-md-3 lead align-middle text-center">
-          <a class="btn btn-primary btn-sm mx-4 rounded-4" href="#project" role="button">Read more below</a>
-       </p>
-	  </div>
-    </div>
-       <!-- <hr class="my-4"> -->
-       <br>
-       <hr class="mx-5">
-       <br>
+			 </ul>
+		</nav>
 
-	<!-- Projects -->		
-<!-- Construction Part -->
-       <div class="row text-center">
-          <div class="col-lg-8 offset-lg-2">Projects section are under <strong>constructed</strong> now, a <strong>preview</strong> is provided. Please come back later. </div>
-		  <div class="col-lg-6 offset-lg-3 mt-3">
-			<a class="text-decoration-none icon-black">
+		<!-- Bio -->
+		<div>
+			<section id="bio"> <!-- -->
 				
-			<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-hammer" viewBox="0 0 16 16">
-			  <path d="M9.972 2.508a.5.5 0 0 0-.16-.556l-.178-.129a5.009 5.009 0 0 0-2.076-.783C6.215.862 4.504 1.229 2.84 3.133H1.786a.5.5 0 0 0-.354.147L.146 4.567a.5.5 0 0 0 0 .706l2.571 2.579a.5.5 0 0 0 .708 0l1.286-1.29a.5.5 0 0 0 .146-.353V5.57l8.387 8.873A.5.5 0 0 0 14 14.5l1.5-1.5a.5.5 0 0 0 .017-.689l-9.129-8.63c.747-.456 1.772-.839 3.112-.839a.5.5 0 0 0 .472-.334z"/>
-			</svg>
-			<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-screwdriver" viewBox="0 0 16 16">
-			  <path d="M0 .995.995 0l3.064 2.19a.995.995 0 0 1 .417.809v.07c0 .264.105.517.291.704l5.677 5.676.909-.303a.995.995 0 0 1 1.018.24l3.338 3.339a.995.995 0 0 1 0 1.406L14.13 15.71a.995.995 0 0 1-1.406 0l-3.337-3.34a.995.995 0 0 1-.24-1.018l.302-.909-5.676-5.677a.995.995 0 0 0-.704-.291H3a.995.995 0 0 1-.81-.417L0 .995Zm11.293 9.595a.497.497 0 1 0-.703.703l2.984 2.984a.497.497 0 0 0 .703-.703l-2.984-2.984Z"/>
-			</svg>
-			<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-wrench" viewBox="0 0 16 16">
-			  <path d="M.102 2.223A3.004 3.004 0 0 0 3.78 5.897l6.341 6.252A3.003 3.003 0 0 0 13 16a3 3 0 1 0-.851-5.878L5.897 3.781A3.004 3.004 0 0 0 2.223.1l2.141 2.142L4 4l-1.757.364L.102 2.223zm13.37 9.019.528.026.287.445.445.287.026.529L15 13l-.242.471-.026.529-.445.287-.287.445-.529.026L13 15l-.471-.242-.529-.026-.287-.445-.445-.287-.026-.529L11 13l.242-.471.026-.529.445-.287.287-.445.529-.026L13 11l.471.242z"/>
-			</svg>
-			<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-bucket" viewBox="0 0 16 16">
-			  <path d="M2.522 5H2a.5.5 0 0 0-.494.574l1.372 9.149A1.5 1.5 0 0 0 4.36 16h7.278a1.5 1.5 0 0 0 1.483-1.277l1.373-9.149A.5.5 0 0 0 14 5h-.522A5.5 5.5 0 0 0 2.522 5zm1.005 0a4.5 4.5 0 0 1 8.945 0H3.527zm9.892 1-1.286 8.574a.5.5 0 0 1-.494.426H4.36a.5.5 0 0 1-.494-.426L2.58 6h10.838z"/>
-			</svg>
-			<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-cone-striped" viewBox="0 0 16 16">
-			  <path d="m9.97 4.88.953 3.811C10.159 8.878 9.14 9 8 9c-1.14 0-2.158-.122-2.923-.309L6.03 4.88C6.635 4.957 7.3 5 8 5s1.365-.043 1.97-.12zm-.245-.978L8.97.88C8.718-.13 7.282-.13 7.03.88L6.275 3.9C6.8 3.965 7.382 4 8 4c.618 0 1.2-.036 1.725-.098zm4.396 8.613a.5.5 0 0 1 .037.96l-6 2a.5.5 0 0 1-.316 0l-6-2a.5.5 0 0 1 .037-.96l2.391-.598.565-2.257c.862.212 1.964.339 3.165.339s2.303-.127 3.165-.339l.565 2.257 2.391.598z"/>
-			</svg>
-				
-				
-			 </a>
-		  </div>
-       </div>
-       
-		<br>
-       <hr>
-       <br>
-		
-		
-		<!-- Card parts -->
-		<div class="row" id="project">
-			<div class="col-md-4">
-				<div class="card">
-					<div class="card-header text-center bg-primary text-white">
-						<span>Fun Projects</span>
+				<div class="row px-3">
+					<div class="col-6 text-end" >
+						<h1>I am Tianjun Ma</h1>
 					</div>
-					<img class="card-img-bottom" src="images/3D Printing.jpg" alt="3D Printed Name Tag">
-					<div class="card-body">
-						<h4 class="card-title">3D Prints</h4>
-						<p class="card-text">Learn to print something fun! Displayed is a name plate designed for the office.</p>
-						
+					<div class="col-6 text-start align-bottom my-4">
+						<p class="">A Therapeutic Medical Physicist.</p>
+					</div>
+					<div class="row align-items-center" >
+						<p class="col-md-6 text-center offset-md-3">Welcome to this simple site of mine! Currently I am a medical physicist located in Virginia, United States, covering a wide range of clinical activity, as well as being an instructor. Having explored all espects of medical physics, I stay focused and certified in the therapeutic branch. </p>
+						<p class="col-md-3 lead align-middle text-center">
+							<a class="btn btn-primary btn-sm mx-4 rounded-4" href="#project" role="button">Read more below</a>
+						</p>
 					</div>
 				</div>
-			</div>
-			
-		<div class="col-md-4">
-				<div class="card">
-					<div class="card-header text-center bg-primary text-white">
-						<span>ABR Board Readyness Projects</span>
-					</div>
-					<img class="card-img-bottom" src="images/BoardReadyness.jpg" alt="ABR Board Readyness Project">
-					<div class="card-body">
-						<h4 class="card-title">ABR Board Readyness Project</h4>
-						<p class="card-text">Prepare for the most fun exam! Notes for the ABR board exams.</p>
-						
-					</div>
-				</div>
-			</div>
+				<!-- <hr class="my-4"> -->
+				<br>
+				<hr>
+				<br>
 
-			<div class="col-md-4">
-				<div class="card">
-					<div class="card-header text-center bg-primary text-white">
-						<span>Research Projects</span>
-					</div>
-					<img class="card-img-bottom" src="images/ResearchProjects.jpg" alt="Research Project">
-					<div class="card-body">
-						<h4 class="card-title">Research Project</h4>
-						<p class="card-text">Always fun to work on! Some research projects that I used to work on.</p>
+				<!-- Projects -->		
+				<!-- Construction Part -->
+				<div class="row text-center">
+					<div class="col-lg-8 offset-lg-2">Projects section are under <strong>constructed</strong> now, a <strong>preview</strong> is provided. Please come back later. </div>
+					<div class="col-lg-6 offset-lg-3 mt-3">
+						<a class="text-decoration-none icon-black">
 						
+						<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-hammer" viewBox="0 0 16 16">
+							<path d="M9.972 2.508a.5.5 0 0 0-.16-.556l-.178-.129a5.009 5.009 0 0 0-2.076-.783C6.215.862 4.504 1.229 2.84 3.133H1.786a.5.5 0 0 0-.354.147L.146 4.567a.5.5 0 0 0 0 .706l2.571 2.579a.5.5 0 0 0 .708 0l1.286-1.29a.5.5 0 0 0 .146-.353V5.57l8.387 8.873A.5.5 0 0 0 14 14.5l1.5-1.5a.5.5 0 0 0 .017-.689l-9.129-8.63c.747-.456 1.772-.839 3.112-.839a.5.5 0 0 0 .472-.334z"/>
+						</svg>
+						<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-screwdriver" viewBox="0 0 16 16">
+							<path d="M0 .995.995 0l3.064 2.19a.995.995 0 0 1 .417.809v.07c0 .264.105.517.291.704l5.677 5.676.909-.303a.995.995 0 0 1 1.018.24l3.338 3.339a.995.995 0 0 1 0 1.406L14.13 15.71a.995.995 0 0 1-1.406 0l-3.337-3.34a.995.995 0 0 1-.24-1.018l.302-.909-5.676-5.677a.995.995 0 0 0-.704-.291H3a.995.995 0 0 1-.81-.417L0 .995Zm11.293 9.595a.497.497 0 1 0-.703.703l2.984 2.984a.497.497 0 0 0 .703-.703l-2.984-2.984Z"/>
+						</svg>
+						<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-wrench" viewBox="0 0 16 16">
+							<path d="M.102 2.223A3.004 3.004 0 0 0 3.78 5.897l6.341 6.252A3.003 3.003 0 0 0 13 16a3 3 0 1 0-.851-5.878L5.897 3.781A3.004 3.004 0 0 0 2.223.1l2.141 2.142L4 4l-1.757.364L.102 2.223zm13.37 9.019.528.026.287.445.445.287.026.529L15 13l-.242.471-.026.529-.445.287-.287.445-.529.026L13 15l-.471-.242-.529-.026-.287-.445-.445-.287-.026-.529L11 13l.242-.471.026-.529.445-.287.287-.445.529-.026L13 11l.471.242z"/>
+						</svg>
+						<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-bucket" viewBox="0 0 16 16">
+							<path d="M2.522 5H2a.5.5 0 0 0-.494.574l1.372 9.149A1.5 1.5 0 0 0 4.36 16h7.278a1.5 1.5 0 0 0 1.483-1.277l1.373-9.149A.5.5 0 0 0 14 5h-.522A5.5 5.5 0 0 0 2.522 5zm1.005 0a4.5 4.5 0 0 1 8.945 0H3.527zm9.892 1-1.286 8.574a.5.5 0 0 1-.494.426H4.36a.5.5 0 0 1-.494-.426L2.58 6h10.838z"/>
+						</svg>
+						<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-cone-striped" viewBox="0 0 16 16">
+							<path d="m9.97 4.88.953 3.811C10.159 8.878 9.14 9 8 9c-1.14 0-2.158-.122-2.923-.309L6.03 4.88C6.635 4.957 7.3 5 8 5s1.365-.043 1.97-.12zm-.245-.978L8.97.88C8.718-.13 7.282-.13 7.03.88L6.275 3.9C6.8 3.965 7.382 4 8 4c.618 0 1.2-.036 1.725-.098zm4.396 8.613a.5.5 0 0 1 .037.96l-6 2a.5.5 0 0 1-.316 0l-6-2a.5.5 0 0 1 .037-.96l2.391-.598.565-2.257c.862.212 1.964.339 3.165.339s2.303-.127 3.165-.339l.565 2.257 2.391.598z"/>
+						</svg>
+						</a>
 					</div>
 				</div>
-			</div>			
-		</div>
-		
-		<div class="row my-3">
-			<div class="col-md-6">
-				<div class="card" > <!-- style="width:19rem;-->
-					<div class="card-header text-center bg-primary text-white">
-						<span>Clinical Improvement Projects</span>
-					</div>
-					<div class="text-center">
-						<iframe src="https://www.youtube.com/embed/d1phJHvnCKQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				
+				<br>
+				<hr>
+				<br>
+			</section>
+
+			<!-- Card parts -->
+			<section id="project">
+				<div class="row mx-3" >
+					<div class="col-md-4">
+						<div class="card">
+							<div class="card-header text-center bg-primary text-white">
+								<span>Fun Projects</span>
+							</div>
+							<img class="card-img-bottom" src="images/3D Printing.jpg" alt="3D Printed Name Tag">
+							<div class="card-body">
+								<h4 class="card-title">3D Prints</h4>
+								<p class="card-text">Learn to print something fun! Displayed is a name plate designed for the office.</p>
+								
+							</div>
+						</div>
 					</div>
 					
-					<div class="card-body">
-						<h4 class="card-title">Clinical Scripting</h4>
-						<p class="card-text">Practice coding in daily routines! Displayed is a clinical automation project for quality assurance.</p>
-						
+					<div class="col-md-4">
+						<div class="card">
+							<div class="card-header text-center bg-primary text-white">
+								<span>ABR Board Readyness Projects</span>
+							</div>
+							<img class="card-img-bottom" src="images/BoardReadyness.jpg" alt="ABR Board Readyness Project">
+							<div class="card-body">
+								<h4 class="card-title">ABR Board Readyness Project</h4>
+								<p class="card-text">Prepare for the most fun exam! Notes for the ABR board exams.</p>
+								
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="card">
+							<div class="card-header text-center bg-primary text-white">
+								<span>Research Projects</span>
+							</div>
+							<img class="card-img-bottom" src="images/ResearchProjects.jpg" alt="Research Project">
+							<div class="card-body">
+								<h4 class="card-title">Research Project</h4>
+								<p class="card-text">Always fun to work on! Some research projects that I used to work on.</p>
+								
+							</div>
+						</div>
+					</div>			
+				</div>
+				
+				<div class="row my-3 mx-3">
+					<div class="col-md-6">
+						<div class="card" > <!-- style="width:19rem;-->
+							<div class="card-header text-center bg-primary text-white">
+								<span>Clinical Improvement Projects</span>
+							</div>
+							<div class="text-center">
+								<iframe src="https://www.youtube.com/embed/d1phJHvnCKQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							
+							<div class="card-body">
+								<h4 class="card-title">Clinical Scripting</h4>
+								<p class="card-text">Practice coding in daily routines! Displayed is a clinical automation project for quality assurance.</p>
+								
+							</div>
+						</div>
 					</div>
 				</div>
-			</div>
-		</div>
-		
-	<!-- Horizontal Line -->	
-       <hr>
+			</section>
+			<!-- Horizontal<hr> Line -->	
 
-	<!-- footer --> 
-	<div class="container"> 
-       <div class="row">
-          <div class="text-center col-lg-6 offset-lg-3">
-             <p>Copyright &copy; 2022 &middot; All Rights Reserved &middot; <a href="https://www.linkedin.com/in/tianjunma" >Tianjun Ma</a></p>
-          </div>
-       </div>
-	</div>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins)
-    <script src="css/js/jquery-3.4.1.min.js"></script>
- --> 
-    <!-- Include all compiled plugins (below), or include individual files as needed 
-    <script src="css/js/popper.min.js"></script>
-    <script src="js/js/bootstrap.js"></script>--> 
-  </body>
+		<!-- footer --> 
+			<section id="footer">
+				<footer class="py-3 my-4 border-top"> 
+					<div class="justify-content-center d-flex align-items-center">
+						<a href="#top" class="me-2 text-muted text-decoration-none">
+							<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-badge-tm" viewBox="0 0 16 16">
+								<path d="M5.295 11V5.995H7V5H2.403v.994h1.701V11h1.19zm3.397 0V7.01h.058l1.428 3.239h.773l1.42-3.24h.057V11H13.5V5.001h-1.2l-1.71 3.894h-.039l-1.71-3.894H7.634V11h1.06z"/>
+								<path d="M14 3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h12zM2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2z"/>
+							</svg>
+						</a>
+						<span> &copy; 2022-2023 &middot; All Rights Reserved &middot; <a href="https://www.linkedin.com/in/tianjunma" target="_blank" rel="noopener">Tianjun Ma 
+							<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+								<path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+								<path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+							</svg>
+						</a></span>
+					</div>
+				</footer>
+			</section>
+		</div>	
+
+
+		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M47DK52" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) -->
+	</body>
 </html>
